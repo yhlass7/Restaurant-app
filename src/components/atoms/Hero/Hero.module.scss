@@ -1,15 +1,17 @@
 @import "../../../foundations/sass/all";
 
 .hero {
-  text-align: center;
   background-image: url("../../../../public/images/image_about-bg.png");
-  padding: px-to-rem(120) px-to-rem(95);
   color: $white-floral;
+  padding: px-to-rem(120) px-to-rem(95);
+  text-align: center;
+  
   &__title {
     font-size: $h-2;
     font-weight: $fw-bold;
     line-height: px-to-rem(41);
   }
+  
   &__sub-title {
     font-size: $fs-md;
     font-weight: $fw-normal;
