@@ -1,0 +1,63 @@
+@import "../../../foundations/sass/all";
+
+.delivery {
+  &__sup-title {
+    color: $primary-color;
+    font-size: $fs-lg;
+    font-weight: $fw-bold;
+    line-height: px-to-rem(23);
+    margin-left: px-to-rem(165);
+  }
+
+  &__content {
+    display: grid;
+    grid-template-columns:repeat(2, 50%);
+    column-gap: px-to-rem(100);
+    margin-top: px-to-rem(27);
+  }
+
+  &__info {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: px-to-rem(10);
+    justify-content: center;
+  }
+
+
+  &__description {
+    display: grid;
+    row-gap: px-to-rem(29);
+  }
+
+
+  &__title {
+    color: $secondary-color;
+    font-size: $h-2;
+    font-weight: $fw-bold;
+    line-height: px-to-rem(41);
+  }
+
+  &__text {
+    color: $secondary-color;
+    font-size: $fs-md;
+    font-weight: $fw-normal;
+    line-height: px-to-rem(21);
+  }
+
+  &__actions {
+    display: grid;
+    grid-template-columns:repeat(2, auto);
+    column-gap: px-to-rem(87);
+    margin-top: px-to-rem(69);
+  }
+
+  &__image {
+    position: relative;
+    display: block;
+    width: px-to-rem(450);
+    height: px-to-rem(313);
+    padding: px-to-rem(2);
+  }
+}
